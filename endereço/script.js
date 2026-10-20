@@ -3,7 +3,6 @@ function limpa_formulário_cep() {
     document.getElementById('bairro').value = "";
     document.getElementById('cidade').value = "";
     document.getElementById('uf').value = "";
-    document.getElementById('ibge').value = "";
 }
 
 function mostrarErro(mensagem) {
@@ -16,7 +15,6 @@ function meu_callback(conteudo) {
         document.getElementById('bairro').value = conteudo.bairro;
         document.getElementById('cidade').value = conteudo.localidade;
         document.getElementById('uf').value = conteudo.uf;
-        document.getElementById('ibge').value = conteudo.ibge;
 
         mostrarErro("");
     } else {
@@ -38,7 +36,6 @@ function pesquisacep(valor) {
             document.getElementById('bairro').value = "Carregando...";
             document.getElementById('cidade').value = "Carregando...";
             document.getElementById('uf').value = "...";
-            document.getElementById('ibge').value = "...";
 
             var scriptAntigo = document.getElementById('viacep-script');
 
