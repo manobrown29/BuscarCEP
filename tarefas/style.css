@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://uploads.nossopalestra.com.br/2026/10/Palmeiras-x-Corinthians-984x549.jpg");
+    background-repeat: inherit;
+
+}
+
+.card{
+    background-color: rgb(243, 245, 243);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 52px;
+    border-radius: 10px;
+}
+
+.card h1{
+    margin-bottom: 10px ;
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card button{
+    width: 140px;
+    padding: 8px;
+    font-size: 12px;
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.card button:hover{
+    background-color: rgb(31, 85, 45);
+    color: white;
+    transition: 0.2s;
+}
+
+li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style-type: none;
+    margin-top: 4px;
+}
